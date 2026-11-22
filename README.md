@@ -16,3 +16,10 @@ Sistema de consulta documental basado en arquitectura **RAG (Retrieval-Augmented
    ```bash
    cp .env.example .env
    # Añade tu GROQ_API_KEY en el archivo .env
+
+2. Levanta los servicios:
+   ```bash
+   docker-compose up --build
+
+3.Accede a la interfaz web en http://localhost:8501 o a la documentación interactiva de la API en http://localhost:8000/docs
+
